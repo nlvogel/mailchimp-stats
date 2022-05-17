@@ -1,4 +1,4 @@
 # created by virtualenv automatically
-.csv
+*.csv
 creds.json
-new-reports
+/new-reports
