@@ -110,7 +110,7 @@ def old_report():
             }
             response_list.append(response_dict)
     today = datetime.today().strftime('%Y-%m-%d')
-    pd.DataFrame(response_list).to_csv(f'{today}-old_hhhunt.csv', index=False)
+    pd.DataFrame(response_list).to_csv(f'old-reports/{today}-old_hhhunt.csv', index=False)
     # old_data = pd.DataFrame(response_list)
 
 
